@@ -70,7 +70,7 @@ const prevPokemon = () => {
   return (
 
 <>
-<NavBar prevPokemon={prevPokemon} nextPokemon={nextPokemon} />
+<NavBar pokemonList={pokemonList} setPokemonIndex={setPokemonIndex} />
     <div>
 
       <PokemonCard pokemon={pokemonList[pokemonIndex]} />
